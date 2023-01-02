@@ -1,0 +1,153 @@
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #111;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  #header-image {
+    background-image: url('header.jpg');
+    height: 300px;
+    width: 100%;
+  }
+  
+  #header-text {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+  
+    text-align: center;
+    border-radius: 10px;
+  
+    margin-top: -40.4%;
+   
+    width:80%; height: 50%;
+    right: 100px;
+  }
+  
+  #courses-section {
+    display: flex;
+    cursor: pointer;
+  
+  }
+  
+  .course {
+    width: 30%;
+    margin: 2s0px;
+    text-align: center;
+   
+  }
+  
+  .course img {
+    width: 90%;
+  }
+ 
+  #btn {
+  display: block;
+  border-color: transparent;
+  margin: 0% auto;
+   width: 150px;
+   height: 60px;
+  justify-content: center;
+  border-radius: 20px;
+  margin-bottom: 20PX;
+  background-color: rgb(203, 165, 239);
+  color: rgb(255, 255, 255);
+  
+  }
+  .header-text {
+    display: block;
+    top: 50%;
+    
+   
+  
+  
+  }
+  
+  
+   a:hover {
+  
+    color: rgb(220, 214, 223);
+      text-decoration: none;
+      margin-top: 0;
+  }
+  #btnlist{
+  border-color: transparent;
+  border-radius: 5px;
+  color: rgb(113, 59, 147);
+  background-color: rgb(255, 255, 255);
+  
+  position: absolute;
+  bottom: 20px;
+  left: 650px;
+  
+  }
+  #btnlist:hover{
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #dbe1b1;
+    transition: 0.7s;
+    color: rgb(14, 14, 14);
+    background-color: #dbe1b1;
+    border: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  
+  }
+  #courses-section h3 {
+  color: rgb(128, 96, 158);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: absolute;
+  
+  left:45%;
+  bottom: -300px;
+  
+  }
+  #btn:hover {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #dbe1b1;
+    transition: 0.7s;
+    color: rgb(14, 14, 14);
+    background-color: #ddff00;
+    border: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  
+  
+  }
+  .prix {
+  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+   
+  
+  
+   h2 {
+    font-family: URW Chancery L, cursive;
+    position: relative;
+   right: 30px;
+   margin-top: 20px;
+   padding-top: 20px;
+  
+  
+  
+   }
